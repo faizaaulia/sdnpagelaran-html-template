@@ -317,6 +317,169 @@ main .contact-section .contact-detail .row .phone:before {
   font-size: 22px;
 }
 
+main .breadcrumb-bg {
+  margin-top: 70px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#E9E9E9), to(#F1F1F1));
+  background: linear-gradient(180deg, #E9E9E9, #F1F1F1);
+  min-height: 350px;
+}
+
+main .content .container .breadcrumb {
+  font-family: 'Heebo';
+  margin-top: -320px;
+  background-color: transparent;
+}
+
+main .content .container .breadcrumb .breadcrumb-item {
+  font-size: 16px;
+}
+
+main .content .container .breadcrumb .breadcrumb-item.active {
+  font-weight: 700;
+  color: #253B6E;
+}
+
+main .content .container .row .main-post h3 {
+  font-family: 'Heebo';
+}
+
+main .content .container .row .main-post .card {
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+          box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+main .content .container .row .main-post .card .card-img-top {
+  width: 100%;
+  height: 350px;
+}
+
+@media (max-width: 576px) {
+  main .content .container .row .main-post .card .card-img-top {
+    height: 200px;
+  }
+}
+
+@media (max-width: 320px) {
+  main .content .container .row .main-post .card .card-img-top {
+    max-height: 150px;
+  }
+}
+
+main .content .container .row .main-post .card .card-body .title-link:hover {
+  text-decoration: none;
+  color: #253B6E;
+}
+
+main .content .container .row .main-post .card .card-body .title-link .card-title {
+  font-family: 'Raleway';
+  font-weight: 700;
+}
+
+main .content .container .row .main-post .card .card-body .card-text {
+  font-family: 'Montserrat';
+  font-size: 18px;
+}
+
+main .content .container .row .main-post .card .card-body .btn-link {
+  opacity: .85;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  color: #253B6E;
+}
+
+main .content .container .row .main-post .card .card-body .btn-link:hover {
+  color: #007bff;
+  opacity: 1;
+}
+
+main .content .container .row .main-post .pagination .page-link {
+  font-family: 'Heebo';
+  font-weight: 500;
+  font-size: 18px;
+}
+
+main .content .container .row .other-post {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 2.5rem;
+  width: 100%;
+  height: 100%;
+}
+
+main .content .container .row .other-post .card {
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+          box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+main .content .container .row .other-post .card .card-title {
+  font-family: 'Heebo';
+}
+
+main .content .container .row .other-post .card form {
+  font-family: 'Heebo';
+}
+
+main .content .container .row .other-post .card form .btn-search {
+  padding: 5px 15px;
+  border-radius: 0px 0.25rem 0.25rem 0px;
+}
+
+main .content .container .row .other-post .card.cat ul li .btn-link {
+  font-family: 'Raleway';
+  color: #253B6E;
+}
+
+main .content .container .row .other-post .card.cat ul li .btn-link:hover {
+  color: #007bff;
+  opacity: 1;
+}
+
+main .content .container .row .other-post .card .other-post-item a {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  main .content .container .row .other-post .card .other-post-item a {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  main .content .container .row .other-post .card .other-post-item a {
+    font-size: 4vw;
+  }
+}
+
+main .content .container .row .other-post .card .other-post-item a:hover {
+  text-decoration: none;
+}
+
+main .content .container .row .other-post .card .other-post-item a .card-img-top {
+  height: auto;
+  max-width: 100%;
+  max-height: 150px;
+}
+
+@media (max-width: 992px) {
+  main .content .container .row .other-post .card .other-post-item a .card-img-top {
+    max-height: 110px;
+  }
+}
+
+@media (max-width: 768px) {
+  main .content .container .row .other-post .card .other-post-item a .card-img-top {
+    max-height: 250px;
+  }
+}
+
+main .content .container .row .other-post .card .other-post-item a .card-body {
+  padding: 10px;
+}
+
+main .content .container .row .other-post .card .list-unstyled li a {
+  padding: 0px;
+}
+
 footer {
   margin-top: 150px;
   min-height: 90px;
