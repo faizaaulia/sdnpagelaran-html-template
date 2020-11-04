@@ -163,8 +163,18 @@ main .article-list .row.articles .item {
   text-align: center;
 }
 
+@media (max-width: 575px) {
+  main .article-list .row.articles .item {
+    border-bottom: 1px solid;
+    padding: 40px 0px 15px 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
 main .article-list .row.articles .item a {
   text-decoration: none;
+  font-family: 'Heebo';
 }
 
 main .article-list .row.articles .item a.action {
@@ -219,6 +229,10 @@ main .article-list .row.articles .item h3.name {
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+main .article-list .row.articles .item h3.name:hover {
+  color: #253B6E;
 }
 
 main .article-list .row.articles .item .description {
@@ -319,20 +333,28 @@ footer .container .row .card {
   border: none;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 992px) {
   footer .container .row .card .img-footer {
     width: 80%;
   }
 }
 
+@media (max-width: 767px) {
+  footer .container .row .card .img-footer {
+    width: 60%;
+  }
+}
+
 footer .container .row .card .img-footer .img-fluid {
+  width: 100%;
+  min-width: 100px;
+  max-height: 140px;
   border-radius: 3px;
 }
 
-@media (min-width: 400px) {
+@media (max-width: 440px) {
   footer .container .row .card .img-footer .img-fluid {
-    width: 150px;
-    height: 100px;
+    max-height: 125px;
   }
 }
 
@@ -341,35 +363,26 @@ footer .container .row .card .foo-detail {
   min-height: 80px;
 }
 
-footer .container .row .card .foo-detail .date {
-  position: absolute;
-  bottom: 0px;
-  color: #c1c1c2;
-  font-family: 'Montserrat';
-}
-
-footer .container .row .card .foo-detail .date p {
-  font-size: 14px;
-}
-
-@media (min-width: 400px) and (max-width: 420px) {
+@media (max-width: 767px) {
   footer .container .row .card .foo-detail {
-    margin-left: -10% !important;
+    float: right;
+    width: 70%;
   }
 }
 
-footer .container .row .card h4 {
-  font-weight: 400;
-  font-size: 18px;
-  color: #dbdbe6;
-  font-family: 'Raleway';
+footer .container .row .card .foo-detail a {
+  color: #DDDCDC;
 }
 
-footer .container .row .card h4:hover, footer .container .row .card h4:active {
+footer .container .row .card .foo-detail a:hover {
+  text-decoration: none;
   color: #FFF;
 }
 
-footer .container .row .card a {
+footer .container .row .card .foo-detail a .card-title {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: 'Raleway';
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -377,8 +390,15 @@ footer .container .row .card a {
   text-overflow: ellipsis;
 }
 
-footer .container .row .card a:hover {
-  text-decoration: none;
+footer .container .row .card .foo-detail .date {
+  position: absolute;
+  bottom: 0px;
+  color: #c4c4c5;
+  font-family: 'Montserrat';
+}
+
+footer .container .row .card .foo-detail .date p {
+  font-size: 14px;
 }
 
 footer .container-fluid {
