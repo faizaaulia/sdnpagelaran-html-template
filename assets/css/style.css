@@ -381,6 +381,7 @@ main .content .container .row .main-post .card .card-body .card-text {
 }
 
 main .content .container .row .main-post .card .card-body .btn-link {
+  font-family: 'Heebo';
   opacity: .85;
   -webkit-transition: opacity 0.2s;
   transition: opacity 0.2s;
@@ -409,6 +410,10 @@ main .content .container .row .other-post {
 main .content .container .row .other-post .card {
   -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
           box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+main .content .container .row .other-post .card.wrap {
+  padding: 20px;
 }
 
 main .content .container .row .other-post .card .card-title {
@@ -452,6 +457,7 @@ main .content .container .row .other-post .card .other-post-item a {
 
 main .content .container .row .other-post .card .other-post-item a:hover {
   text-decoration: none;
+  color: #253B6E;
 }
 
 main .content .container .row .other-post .card .other-post-item a .card-img-top {
